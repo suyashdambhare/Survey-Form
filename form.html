@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="s1.css">
+
+   
+</head>
+<body>
+    <div class="s2">
+    <form action="">
+        <h1 class="s3" >Survey Form</h1> <hr>
+        <h2> Student Information</h2>
+        <p>Required Fields Are Followed By *</p>
+        
+            <legend> Email *</legend>
+            <p> <input type="email" name="email" id="email"required placeholder="xyz@gmail.com"></p>
+       
+        <p>  Name:-*</p>  <fieldset> <input type="text" name="name" required placeholder="Suyash Sujeet Dambhare"></fieldset>
+       
+        <fieldset>
+            <legend>GENDER :- *</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male"required >
+                
+                Female <input type="radio" name="gender" id="female"required>
+
+            </p></fieldset>
+        
+        
+    <fieldset>
+        <legend>Branch:-*</legend>
+        <p>
+            <select name="branch" id="branch"required >
+                <option value="">--Select Branch--</option>
+                <option value="Computer Science Engineering">Computer Science Engineering</option>
+                <option value="Artificial Intelligence And Data Science  Engineering">Artificial Intelligence And Data Science  Engineering</option>
+                <option value="Artificial Intelligence and Machine Learning Engineering">Artificial Intelligence and Machine Learning Engineering</option>
+                <option value="Electrical Engineering">Electrical Engineering</option>
+                <option value="Electronics And Telecommunication Engineering">Electronics And Telecommunication Engineering</option>
+                
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+            </select>
+        </p></fieldset>
+        <fieldset>
+            <legend>Section:-*</legend>
+                <p>
+                    <select name="section" id="section"required>
+                        <option value="">--Select Section--</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+
+                    </select>
+                </p></fieldset>
+
+                
+            
+                <p>
+                   Date:- <input type="date" name="date" id="date"required>
+                </p>
+                <hr>
+                <p>
+                    Password of Email ID :-*</p><input type="password" name="password" id="password"required placeholder="pass@123">
+                
+                <hr>
+                <p>
+                    Your Hobbies:- <br>
+                    <input type="checkbox" id="Reading" name="Reading" value="Reading">
+<label for="Reading"> Reading</label><br>
+<input type="checkbox" id="Writing" name="Writing" value="Writing">
+<label for="Writing"> Writing</label><br>
+<input type="checkbox" id="Watching T.V" name="Watching T.V" value="Watching T.V">
+<label for="Watching T.V"> Watching T.V</label><br>
+<input type="checkbox" name="Playing Cricket" id="Playing Cricket">
+<label for="Playing Cricket">Playing Cricket</label><br>
+<input type="checkbox" name="Others" id="Others">
+<label for="Others">Others</label>
+                </p>
+                <hr>
+                
+                <fieldset>
+                    <legend>Would You Like To Take Admission in S.B.Jain College :- *</legend>
+                    <p>
+                        No <input type="radio" name="admission" id="No"required >
+                        
+                        Yes <input type="radio" name="admission" id="Yes"required>
+                        Others<input type="radio" name="admission" id="Others">
+        
+                    </p></fieldset>
+                    <p></p>
+                    <input type="submit" value="Submit"> 
+                    <p></p>
+                <input type="reset" value="Reset">
+                
+           
+       
+            </div>
+    </form>
+</body>
+</html>
